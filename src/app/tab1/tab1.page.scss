@@ -29,7 +29,7 @@ ion-header img {
 .stories .add_story {
     margin: 7px;
     margin-right: 12px;
-    padding: 2px;
+    // padding: 2px;
 }
 .stories img {
     width: 50px;
@@ -55,10 +55,20 @@ ion-header img {
     border-radius: 50%;
     padding: 2px;
 }
-.add_story ion-icon{
+.add_story ion-icon {
     position: absolute;
     bottom: 1px;
     right: 1px;
     border-radius: 50%;
     background-color: white;
+}
+
+ion-item-divider {
+    margin-top: -10%;
+}
+
+@media (min-width: 600px) {
+    ion-item-divider {
+        margin-top: -2%;
+    }
 }
