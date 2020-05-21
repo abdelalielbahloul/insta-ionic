@@ -16,3 +16,28 @@
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
+<ion-content>
+  <!-- <div class="text-stories">
+    <p>Stories</p>
+    <p>See more</p>
+  </div> -->
+  <div class="stories">
+    <div class="story">
+      <div class="add_story">
+        <img src="../../assets/me.jpeg">
+        <ion-icon color="primary" name="add-circle"></ion-icon>
+      </div>
+      <p class="story-name">Your Story</p>
+    </div>
+    <div class="otherStories" *ngFor="let item of stories">
+      <div class="story">
+        <div class="img-box">
+          <img [src]="item.imageURL">
+        </div>
+        <p class="story-name">{{ item.name }}</p>
+      </div>
+      <!-- {{ stories | json}} -->
+
+    </div>
+  </div>
+</ion-content>
