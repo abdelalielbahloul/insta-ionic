@@ -38,7 +38,7 @@ export class Tab1Page {
     },
     {
       imageURL: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTqCfT4-3vNXWAGl05TRkN8g2Yjw__ezM2M9HMAd3Vt8ALkLGUy&usqp=CAU', 
-      name: 'test-name.2323'
+      name: 'test-name'
     },
     {
       imageURL: 'https://i1.wp.com/metro.co.uk/wp-content/uploads/2015/07/daniel.jpeg?quality=90&strip=all&zoom=1&resize=540%2C540&ssl=1', 
