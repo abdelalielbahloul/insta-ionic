@@ -84,9 +84,7 @@ ion-avatar{
 ion-avatar img {
     border: 2px solid white;
 }
-ion-avatar img {
-    border: 2px solid white;
-}
+
 ion-label {
     font-size: 14px!important;
     font-weight: 700;
@@ -106,4 +104,7 @@ ion-label {
 .insta-text {
     font-size: 13px;
     margin: 0px 6px 4px 6px;
+}
+.img-post {
+    width: 100% !important;
 }
