@@ -61,14 +61,25 @@ ion-grid {
     margin-top: 12%;
 }
 
-ion-row.sec-row {
-    margin-top: -4%;
+@media (min-width: 600px) {
+    ion-row.sec-row {
+        margin-top: -2%;
+    }
 }
+@media (max-width: 599px) {
+    ion-row.sec-row {
+        margin-top: -4%;
+    }
+}
+
+
+// ion-row.sec-row {
+//     margin-top: -4%;
+// }
 
 p.status {
     font-size: 12px;
 }
-
 
 strong.name {
     font-size: small !important;
